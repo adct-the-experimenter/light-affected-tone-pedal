@@ -1,6 +1,34 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# LM358AP_LM358AP
+#
+DEF LM358AP_LM358AP U 0 40 Y Y 1 L N
+F0 "U" -211 559 50 H V L BNN
+F1 "LM358AP_LM358AP" -142 -918 50 H V L BNN
+F2 "DIP254P762X508-8" 0 0 50 H I L BNN
+F3 "Dual Operational Amplifier 8-PDIP 0 to 70" 0 0 50 H I L BNN
+F4 "LM358AP" 0 0 50 H I L BNN
+F5 "DIP-8 Texas Instruments" 0 0 50 H I L BNN
+F6 "Texas Instruments" 0 0 50 H I L BNN
+F7 "https://www.digikey.com/product-detail/en/texas-instruments/LM358AP/296-9554-5-ND/379836?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "296-9554-5-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 -700 500 -700 N
+P 2 0 0 16 -500 400 -500 -700 N
+P 2 0 0 16 500 -700 500 400 N
+P 2 0 0 16 500 400 -500 400 N
+X 1OUT 1 700 200 200 L 40 40 0 0 O
+X 1IN- 2 -700 -100 200 R 40 40 0 0 I
+X 1IN+ 3 -700 0 200 R 40 40 0 0 I
+X GND 4 -700 -500 200 R 40 40 0 0 P
+X 2IN+ 5 -700 -200 200 R 40 40 0 0 I
+X 2IN- 6 -700 -300 200 R 40 40 0 0 I
+X 2OUT 7 700 100 200 L 40 40 0 0 O
+X VCC 8 -700 200 200 R 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
 # pspice_0
 #
 DEF pspice_0 #GND 0 0 Y Y 1 F P
@@ -14,11 +42,11 @@ X 0 1 0 0 0 R 40 40 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pspice_C
+# pspice_CAP
 #
-DEF pspice_C C 0 10 Y Y 1 F N
+DEF pspice_CAP C 0 10 Y Y 1 F N
 F0 "C" 100 150 50 V V C CNN
-F1 "pspice_C" 100 -150 50 V V C CNN
+F1 "pspice_CAP" 100 -150 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS C
@@ -27,23 +55,6 @@ P 2 0 1 0 -150 -50 150 -50 N
 P 2 0 1 0 -150 50 150 50 N
 X ~ 1 0 250 200 D 40 40 1 1 P
 X ~ 2 0 -250 200 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# pspice_OPAMP
-#
-DEF pspice_OPAMP U 0 10 Y Y 1 F N
-F0 "U" 150 125 50 H V L CNN
-F1 "pspice_OPAMP" 150 -125 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 4 0 1 10 200 0 -200 200 -200 -200 200 0 f
-X + 1 -300 100 100 R 50 50 1 1 I
-X - 2 -300 -100 100 R 50 50 1 1 I
-X ~ 3 300 0 100 L 50 50 1 1 O
-X V+ 4 -100 300 150 D 50 50 1 1 W
-X V- 5 -100 -300 150 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
