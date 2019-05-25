@@ -1,6 +1,6 @@
 BSD 3-Clause License
 
-Copyright (c) 2019, Pablo Antonio Camacho Jr.
+Copyright (c) 2019, Pablo Antonio Camacho Jr. , Another Dimension Effects
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
