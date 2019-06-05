@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:light-tone-pedal-cache
 EELAYER 29 0
 EELAYER END
@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pspice:0 #GND0101
-U 1 1 5CBC181C
-P 2000 4900
-F 0 "#GND0101" H 2000 4800 50  0001 C CNN
-F 1 "0" H 2000 4987 50  0000 C CNN
-F 2 "" H 2000 4900 50  0001 C CNN
-F 3 "~" H 2000 4900 50  0001 C CNN
-	1    2000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L pspice:VSOURCE VCC1
 U 1 1 5CBC1848
 P 2000 4400
@@ -39,8 +28,6 @@ F 6 "Y" H 2000 4400 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    2000 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 4700 2000 4900
 Wire Wire Line
 	2000 4100 2650 4100
 Text GLabel 5450 4800 1    50   Input ~ 0
@@ -93,8 +80,6 @@ Text GLabel 2100 2850 1    50   Input ~ 0
 vin
 Wire Wire Line
 	2100 2950 2100 2850
-Text GLabel 5050 2650 1    50   Input ~ 0
-OUT_BUFFER
 $Comp
 L pspice:R RG2
 U 1 1 5CE91A04
@@ -117,8 +102,6 @@ F 3 "~" H 2850 2600 50  0001 C CNN
 	1    2850 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 2250 1    50   Input ~ 0
-vcc
 Wire Wire Line
 	2850 2350 2850 2250
 Wire Wire Line
@@ -174,16 +157,9 @@ F 3 "~" H 6350 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5950 3400 6350 3400
-Wire Wire Line
-	5950 3150 6350 3150
-Wire Wire Line
-	6350 3150 6350 3400
 Connection ~ 6350 3400
 Wire Wire Line
-	5450 3400 5450 3150
-Wire Wire Line
 	5450 3150 5450 2650
-Connection ~ 5450 3150
 $Comp
 L pspice:R R_TONEPOT1
 U 1 1 5CEB65F7
@@ -322,8 +298,6 @@ Wire Wire Line
 Connection ~ 8300 2750
 Wire Wire Line
 	8300 2750 8300 2950
-Text GLabel 7250 2750 1    50   Input ~ 0
-OUT_BP
 $Comp
 L LM358AP:LM358AP U1
 U 1 1 5CF03EC3
@@ -522,11 +496,110 @@ Wire Wire Line
 Wire Wire Line
 	7550 5050 7100 5050
 Connection ~ 7100 5050
-Text GLabel 8500 4600 2    50   Input ~ 0
-vout
 Wire Wire Line
 	8500 4600 8250 4600
 Connection ~ 8250 4600
 Wire Wire Line
 	8250 4600 8250 4550
+Wire Wire Line
+	4750 4300 4750 2650
+Wire Wire Line
+	5950 3150 5950 3300
+Wire Wire Line
+	5950 3300 5450 3300
+Wire Wire Line
+	5450 3300 5450 3400
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CF8EBDB
+P 1250 2200
+F 0 "#FLG0101" H 1250 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2373 50  0000 C CNN
+F 2 "" H 1250 2200 50  0001 C CNN
+F 3 "~" H 1250 2200 50  0001 C CNN
+	1    1250 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 2250 1    50   Input ~ 0
+vcc
+Text GLabel 2850 2250 1    50   Input ~ 0
+vcc
+Text GLabel 1250 2300 3    50   Input ~ 0
+vcc
+Wire Wire Line
+	1250 2200 1250 2300
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5CF923FF
+P 1250 2200
+F 0 "#FLG0102" H 1250 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2373 50  0000 C CNN
+F 2 "" H 1250 2200 50  0001 C CNN
+F 3 "~" H 1250 2200 50  0001 C CNN
+	1    1250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0101
+U 1 1 5CBC181C
+P 1850 5050
+F 0 "#GND0101" H 1850 4950 50  0001 C CNN
+F 1 "0" H 1850 5137 50  0000 C CNN
+F 2 "" H 1850 5050 50  0001 C CNN
+F 3 "~" H 1850 5050 50  0001 C CNN
+	1    1850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4700 2000 4900
+Wire Wire Line
+	1850 5050 1850 4900
+Wire Wire Line
+	1850 4900 2000 4900
+$Comp
+L pspice:0 #GND0102
+U 1 1 5CF995C0
+P 1850 5050
+F 0 "#GND0102" H 1850 4950 50  0001 C CNN
+F 1 "0" H 1850 5137 50  0000 C CNN
+F 2 "" H 1850 5050 50  0001 C CNN
+F 3 "~" H 1850 5050 50  0001 C CNN
+	1    1850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0103
+U 1 1 5CF995D1
+P 1600 2450
+F 0 "#GND0103" H 1600 2350 50  0001 C CNN
+F 1 "0" H 1600 2537 50  0000 C CNN
+F 2 "" H 1600 2450 50  0001 C CNN
+F 3 "~" H 1600 2450 50  0001 C CNN
+	1    1600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5CF9B870
+P 1250 2200
+F 0 "#FLG0103" H 1250 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 2373 50  0000 C CNN
+F 2 "" H 1250 2200 50  0001 C CNN
+F 3 "~" H 1250 2200 50  0001 C CNN
+	1    1250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5CF9B881
+P 1600 2250
+F 0 "#FLG0104" H 1600 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 2423 50  0000 C CNN
+F 2 "" H 1600 2250 50  0001 C CNN
+F 3 "~" H 1600 2250 50  0001 C CNN
+	1    1600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2250 1600 2450
 $EndSCHEMATC
