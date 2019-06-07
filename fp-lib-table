@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name light-affected-tone-pedal)(type KiCad)(uri ${KIPRJMOD}/symbols/light-affected-tone-pedal.pretty)(options "")(descr ""))
+)

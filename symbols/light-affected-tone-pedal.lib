@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# EG1218
+#
+DEF EG1218 S 0 0 Y Y 1 F N
+F0 "S" -150 90 50 H V C CNN
+F1 "EG1218" 0 -210 50 H V C CNN
+F2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
+F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
+F4 "EG1903-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "EG1218" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Slide Switches" 200 700 60 H I L CNN "Family"
+F8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH SLIDE SPDT 200MA 30V" 200 1000 60 H I L CNN "Description"
+F11 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -90 0 14 0 1 0 F
+C 90 -100 14 0 1 0 F
+C 100 100 14 0 1 0 F
+P 2 0 1 0 -80 0 120 90 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM358AP
+#
+DEF LM358AP U 0 40 Y Y 1 L N
+F0 "U" -211 559 50 H V L BNN
+F1 "LM358AP" -142 -918 50 H V L BNN
+F2 "DIP254P762X508-8" 0 0 50 H I L BNN
+F3 "Texas Instruments" 0 0 50 H I L BNN
+F4 "296-9554-5-ND" 0 0 50 H I L BNN
+F5 "Dual Operational Amplifier 8-PDIP 0 to 70" 0 0 50 H I L BNN
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/LM358AP/296-9554-5-ND/379836?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F7 "LM358AP" 0 0 50 H I L BNN
+F8 "DIP-8 Texas Instruments" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 -700 500 -700 N
+P 2 0 0 16 -500 400 -500 -700 N
+P 2 0 0 16 500 -700 500 400 N
+P 2 0 0 16 500 400 -500 400 N
+X 1OUT 1 700 200 200 L 40 40 0 0 O
+X 1IN- 2 -700 -100 200 R 40 40 0 0 I
+X 1IN+ 3 -700 0 200 R 40 40 0 0 I
+X GND 4 -700 -500 200 R 40 40 0 0 P
+X 2IN+ 5 -700 -200 200 R 40 40 0 0 I
+X 2IN- 6 -700 -300 200 R 40 40 0 0 I
+X 2OUT 7 700 100 200 L 40 40 0 0 O
+X VCC 8 -700 200 200 R 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library
