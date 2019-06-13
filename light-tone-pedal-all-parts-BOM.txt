@@ -1,5 +1,4 @@
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"GND,OUT,GND,VCC,VCC,VCC,VCC,VCC,VCC,VCC";"SolderWirePad_1x01_Drill0.8mm";10;"SolderWirePad_1x01_Drill0.8mm";;;
 2;"U3,U2,U1";"DIP254P762X508-8";3;"LM358AP";;;
 3;"C1,C7";"C_Rect_L29.0mm_W16.0mm_P27.50mm_MKT";2;"2u";;;
 4;"C2,C3";"C_Disc_D7.0mm_W2.5mm_P5.00mm";2;"0.1u";;;
@@ -13,11 +12,8 @@
 12;"R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"100k";;;
 13;"R7,R17";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"10k";;;
 14;"R8,R18";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"120k";;;
-15;"LDR1,LDR2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"RLDR3k-11k";;;
+15;"R9,R12";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"3k";;;
 16;"R10,R11";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"24k";;;
-17;"RPOT1,RPOT8";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"R20kLin";;;
-18;"RPOT2,RPOT3,RPOT9,RPOT10";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";4;"R10kLin";;;
-19;"RPOT4,RPOT5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"R1MegLog";;;
-20;"RPOT6,RPOT7";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"R100kLin";;;
-21;"S1,S2";"Switch_Slide_11.6x4mm_EG1218";2;"EG1218";;;
-22;"V1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"VSOURCE";;;
+17;"RPOT1,RPOT2,RPOT3,RPOT4,RPOT5,RPOT6,RPOT7,RPOT8,RPOT9,RPOT10";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";10;"R";;;
+18;"S1,S2";"Switch_Slide_11.6x4mm_EG1218";2;"EG1218";;;
+19;"V1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"VSOURCE";;;

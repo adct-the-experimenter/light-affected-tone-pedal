@@ -1,0 +1,30 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";"Unit Cost";;"Link"
+2;"U3,U2,U1";"DIP254P762X508-8";3;"LM358AP";"Texas Instruments"; "$0.29";;"https://www.ti.com/store/ti/en/p/product/?p=LM358AP&HQS=corp-tistore-null-storeinv-invf-store-octopart-wwe"
+3;"C1,C7";"C_Rect_L29.0mm_W16.0mm_P27.50mm_MKT";2;"2u";"Panasonic ECW-F4205JL ";"$2.50";;"https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECW-F4205JL/P12239-ND/656397"
+4;"C2,C3";"C_Disc_D7.0mm_W2.5mm_P5.00mm";2;"0.1u";"Murata Electronics RDER71H104K0S1H03A ";"$0.31";;"https://www.mouser.com/ProductDetail/Murata-Electronics/RDER71H104K0S1H03A?qs=%2Fha2pyFadugsNiSzM4QtoLssxGBtVZvjkG8K2jcAq%252BcZvnDc7z8u8H5jtslHdnpL&utm_source=octopart&utm_medium=aggregator&utm_campaign=81-RDER71H104K0S1H3A&utm_content=Murata"
+5;"C4,C10";"C_Disc_D7.0mm_W2.5mm_P5.00mm";2;"1u";"WIMA MKS0B041000F00KSC";"$1.12";;"https://www.digikey.com/product-detail/en/wima/MKS0B041000F00KSC9/1928-1598-ND/9370524"
+6;"C5,C9";"C_Disc_D7.0mm_W2.5mm_P5.00mm";2;"10u";"Nichicon UKL1C100KDD1TD";"$0.30";;"https://www.mouser.com/ProductDetail/Nichicon/UKL1C100KDD1TD?qs=%2Fha2pyFaduhs8SuYuV5CrlF5cBWjZkB0PkMo8RuBshf4NkzH2MXt%252Bw%3D%3D&utm_source=octopart&utm_medium=aggregator&utm_campaign=647-UKL1C100KDD1TD&utm_content=Nichicon"
+7;"C6";"C_Rect_L24.0mm_W7.0mm_P22.50mm_MKT";1;"5600p";"Panasonic ECW-H16562JV ";"$0.80";;"https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECW-H16562JV/P10504-ND/269124"
+8;"C8";"C_Rect_L13.0mm_W8.0mm_P10.00mm_FKS3_FKP3_MKS4";1;"0.022u";"Panasonic ECW-F6203JL";"$1.13";;"https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECW-F6203JL/P12124-ND/585191"
+9;"D1,D2";"LED_D3.0mm";2;"CQY99";"Everlight Electronics HLMP-K150";"$0.42";;"https://www.digikey.com/product-detail/en/everlight-electronics-co-ltd/HLMP-K150/1080-1067-ND/2675558"
+10;"R1,R3,R4,R13,R15,R16";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";6;"1Meg";"Stackpole Electronics CF14JT1M00 ";"$0.10";;"https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT1M00/CF14JT1M00CT-ND/1830423"
+11;"R2,R5,R14";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";3;"1k";"Stackpole Electronics CF14JT1K00";"$0.10";;"https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT1K00/CF14JT1K00CT-ND/1830350"
+12;"R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"100k";" Stackpole Electronics CF14JT100K ";"$0.10";;"https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT100K/CF14JT100KCT-ND/1830399"
+13;"R7,R17";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"10k";"Stackpole Electronics CF14JT10K0";"$0.10";;"https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374"
+14;"R8,R18";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"120k";"Stackpole Electronics CF14JT120K ";"$0.10";;"https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT120K/CF14JT120KCT-ND/1830401"
+15;"LDR1,LDR2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"RLDR3k-11k";"Advanced Photonix PDV-P8001 ";"$2.22";;"https://www.digikey.com/product-detail/en/advanced-photonix/PDV-P8001/PDV-P8001-ND/480602"
+16;"R10,R11";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"24k";"Stackpole Electronics CF14JT24K0";"$0.10";;"https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT24K0/CF14JT24K0CT-ND/1830384"
+17;"RPOT1,RPOT8";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"R25kLin";"Alpha R-V38-25KL";"$1.60";;"https://www.tubesandmore.com/products/potentiometer-alpha-linear-38-bushing"
+18;"RPOT2,RPOT3,RPOT9,RPOT10";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"R10kLin";"Alpha R-V38-10KL";"$1.60";;"https://www.tubesandmore.com/products/potentiometer-alpha-linear-38-bushing"
+19;"RPOT4,RPOT5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"R1MegLog";"Alpha R-V38-1MA";"$1.60";;"https://www.tubesandmore.com/products/potentiometer-alpha-audio-38-bushing"
+20;"RPOT6,RPOT7";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"R100kLin";"Alpha R-V38-100KL";"$1.60";;"https://www.tubesandmore.com/products/potentiometer-alpha-linear-38-bushing""
+21;"S1,S2";"Switch_Slide_11.6x4mm_EG1218";2;"EG1218";"E-Switch EG1218";"$0.61";;"https://www.mouser.com/Search/Refine?N=4294759258&Keyword=612-EG1218&utm_source=octopart&utm_medium=aggregator&utm_campaign=612-EG1218&utm_content=E-Switch"
+
+Outside PCB parts
+
+Enclosure;Hammond 4S1590BBT(4.67” x 3.68” x 1.95") Pre-Drill; 5;$46.20;https://www.mammothelectronics.com/products/4s1590bbt-enclosure
+"DC Power pin";"$0.95";"https://www.tubesandmore.com/products/power-jack-dc-panel-mount"
+DPDT Foot Switch;"$5.50";"https://www.tubesandmore.com/products/switch-dunlop-mxr-dpdt-pc-mount"
+Mono 1/4" Jack;
+Stereo 1/4" Jack;
+"Knob";"$1.30";"https://www.tubesandmore.com/products/knob-large-indicator-line-set-screw"
