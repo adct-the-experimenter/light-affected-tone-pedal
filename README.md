@@ -1,5 +1,7 @@
 # Light-Affected Tone Pedal
-This is an analog circuit and pcb for the product Light-Affected Tone pedal designed and soon-to-be sold by Another Dimension Effects. adfxz.com/light-affected-tone-pedal
+This is an analog circuit and pcb for the product Light-Affected Tone pedal designed by Another Dimension Effects.
+
+Simulation: adfxz.com/light-affected-tone-pedal
 
 The Light Dependent Resistors used range from 3k ohms to 11k ohms.
 
