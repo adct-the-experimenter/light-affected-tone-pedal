@@ -24,3 +24,10 @@ Do not mass produce and sell this pedal without FCC compliance in the United Sta
 The same restriction applies to other countries with government bodies concerned with regulation of electro-magnetic interference.
 
 Another Dimension Effects and/or Pablo Antonio Camacho Jr. are not liable for any damage caused by this pedal including EMI.
+
+# Sponsors
+The completion of the project is being sponsored by PCBWay.
+
+<img src="https://www.adfxz.com/wp-content/uploads/PCBway1_1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
