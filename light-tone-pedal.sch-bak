@@ -187,6 +187,19 @@ Wire Wire Line
 	7500 2250 7500 2350
 Connection ~ 7500 2250
 $Comp
+L POWER:VCC #PWR024
+U 1 1 5CF99D11
+P 7500 1500
+F 0 "#PWR024" H 7500 1350 50  0001 C CNN
+F 1 "VCC" H 7517 1673 50  0000 C CNN
+F 2 "" H 7500 1500 50  0001 C CNN
+F 3 "" H 7500 1500 50  0001 C CNN
+	1    7500 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1500 7500 1650
+$Comp
 L POWER:GND #PWR025
 U 1 1 5CF9F70D
 P 7500 2950
@@ -1192,8 +1205,4 @@ Text GLabel 6750 4750 1    50   Output ~ 0
 vcc_filtered
 Wire Wire Line
 	6750 5000 6750 4750
-Text GLabel 7500 1400 1    50   Output ~ 0
-vcc_filtered
-Wire Wire Line
-	7500 1650 7500 1400
 $EndSCHEMATC
