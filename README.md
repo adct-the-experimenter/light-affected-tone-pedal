@@ -7,9 +7,7 @@ This is an analog circuit and pcb for the product Light-Affected Tone pedal desi
 - Circuit: light-tone-pedal-circuit.asc
 
 ## Videos
-https://www.instagram.com/p/B3k-Sk8JLl7/
-https://www.instagram.com/p/ByTtRjYln7d/
-https://www.instagram.com/p/ByRTUkDlDz8/
+https://www.youtube.com/watch?v=-8gtVt2RAtI
 
 The Light Dependent Resistors used range from 3k ohms to 11k ohms.
 
