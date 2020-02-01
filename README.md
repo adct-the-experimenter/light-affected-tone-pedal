@@ -37,6 +37,10 @@ you must include a slip of paper that contains the license conditions and copyri
 
 Read License.txt for details.
 
+##Important Note
+Do not place the light dependent resistor or LED(light-emitting diode) on the board.
+Instead place the components in a separate board and and connect the leads/terminals to the pcb.
+
 ## Warning
 
 Do not mass produce and sell this pedal without FCC compliance in the United States of America.
