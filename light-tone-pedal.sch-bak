@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L POWER:PWR_FLAG #FLG01
+L light-tone-pedal-rescue:PWR_FLAG-POWER #FLG01
 U 1 1 5CF89658
 P 1150 900
 F 0 "#FLG01" H 1150 975 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 1150 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:VCC #PWR02
+L light-tone-pedal-rescue:VCC-POWER #PWR02
 U 1 1 5CF89D59
 P 1000 1050
 F 0 "#PWR02" H 1000 900 50  0001 C CNN
@@ -40,7 +40,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 1050 1000 1050
 $Comp
-L POWER:GND #PWR04
+L light-tone-pedal-rescue:GND-POWER #PWR04
 U 1 1 5CF8B0BE
 P 1550 1050
 F 0 "#PWR04" H 1550 800 50  0001 C CNN
@@ -51,7 +51,7 @@ F 3 "" H 1550 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:PWR_FLAG #FLG02
+L light-tone-pedal-rescue:PWR_FLAG-POWER #FLG02
 U 1 1 5CF8B6A2
 P 1550 900
 F 0 "#FLG02" H 1550 975 50  0001 C CNN
@@ -64,7 +64,7 @@ $EndComp
 Wire Wire Line
 	1550 1050 1550 900 
 $Comp
-L POWER:GND #PWR012
+L light-tone-pedal-rescue:GND-POWER #PWR012
 U 1 1 5CF8C221
 P 2950 2850
 F 0 "#PWR012" H 2950 2600 50  0001 C CNN
@@ -77,7 +77,7 @@ $EndComp
 Wire Wire Line
 	2950 2850 2950 2750
 $Comp
-L PSPICE:CAP C2
+L light-tone-pedal-rescue:CAP-PSPICE C2
 U 1 1 5CF8C4CC
 P 1800 2600
 F 0 "C2" V 1485 2600 50  0000 C CNN
@@ -90,7 +90,7 @@ $EndComp
 Text GLabel 1250 2600 0    50   Input ~ 0
 vin
 $Comp
-L PSPICE:R R3
+L light-tone-pedal-rescue:R-PSPICE R3
 U 1 1 5CF8E8F7
 P 2200 2100
 F 0 "R3" H 2268 2146 50  0000 L CNN
@@ -101,7 +101,7 @@ F 3 "~" H 2200 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R R4
+L light-tone-pedal-rescue:R-PSPICE R4
 U 1 1 5CF8ED46
 P 2200 3000
 F 0 "R4" H 2268 3046 50  0000 L CNN
@@ -112,7 +112,7 @@ F 3 "~" H 2200 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR010
+L light-tone-pedal-rescue:GND-POWER #PWR010
 U 1 1 5CF943C8
 P 2200 3250
 F 0 "#PWR010" H 2200 3000 50  0001 C CNN
@@ -144,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2350 2950 2350
 $Comp
-L PSPICE:R R16
+L light-tone-pedal-rescue:R-PSPICE R16
 U 1 1 5CF96A96
 P 7500 2600
 F 0 "R16" H 7568 2646 50  0000 L CNN
@@ -155,7 +155,7 @@ F 3 "~" H 7500 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R R15
+L light-tone-pedal-rescue:R-PSPICE R15
 U 1 1 5CF97524
 P 7500 1900
 F 0 "R15" H 7568 1946 50  0000 L CNN
@@ -166,7 +166,7 @@ F 3 "~" H 7500 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:CAP C9
+L light-tone-pedal-rescue:CAP-PSPICE C9
 U 1 1 5CF97976
 P 7000 2250
 F 0 "C9" V 6685 2250 50  0000 C CNN
@@ -187,20 +187,7 @@ Wire Wire Line
 	7500 2250 7500 2350
 Connection ~ 7500 2250
 $Comp
-L POWER:VCC #PWR024
-U 1 1 5CF99D11
-P 7500 1500
-F 0 "#PWR024" H 7500 1350 50  0001 C CNN
-F 1 "VCC" H 7517 1673 50  0000 C CNN
-F 2 "" H 7500 1500 50  0001 C CNN
-F 3 "" H 7500 1500 50  0001 C CNN
-	1    7500 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 1500 7500 1650
-$Comp
-L POWER:GND #PWR025
+L light-tone-pedal-rescue:GND-POWER #PWR025
 U 1 1 5CF9F70D
 P 7500 2950
 F 0 "#PWR025" H 7500 2700 50  0001 C CNN
@@ -213,7 +200,7 @@ $EndComp
 Wire Wire Line
 	7500 2850 7500 2950
 $Comp
-L PSPICE:R LDR1
+L light-tone-pedal-rescue:R-PSPICE LDR1
 U 1 1 5CFA2BB6
 P 5000 2450
 F 0 "LDR1" H 5068 2496 50  0000 L CNN
@@ -224,7 +211,7 @@ F 3 "~" H 5000 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R R10
+L light-tone-pedal-rescue:R-PSPICE R10
 U 1 1 5CFA30C2
 P 5250 2900
 F 0 "R10" V 5045 2900 50  0000 C CNN
@@ -235,7 +222,7 @@ F 3 "~" H 5250 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PSPICE:CAP C6
+L light-tone-pedal-rescue:CAP-PSPICE C6
 U 1 1 5CFA447B
 P 5250 1650
 F 0 "C6" V 4935 1650 50  0000 C CNN
@@ -246,7 +233,7 @@ F 3 "~" H 5250 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PSPICE:R R11
+L light-tone-pedal-rescue:R-PSPICE R11
 U 1 1 5CFA4BA5
 P 5650 1050
 F 0 "R11" H 5718 1096 50  0000 L CNN
@@ -257,7 +244,7 @@ F 3 "~" H 5650 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R LDR2
+L light-tone-pedal-rescue:R-PSPICE LDR2
 U 1 1 5CFA51BB
 P 5950 1050
 F 0 "LDR2" H 6018 1096 50  0000 L CNN
@@ -268,7 +255,7 @@ F 3 "~" H 5950 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:CAP C8
+L light-tone-pedal-rescue:CAP-PSPICE C8
 U 1 1 5CFA55E2
 P 5750 3150
 F 0 "C8" H 5928 3196 50  0000 L CNN
@@ -292,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 2900 5500 2900
 $Comp
-L POWER:GND #PWR018
+L light-tone-pedal-rescue:GND-POWER #PWR018
 U 1 1 5CFACDA9
 P 5750 3550
 F 0 "#PWR018" H 5750 3300 50  0001 C CNN
@@ -305,7 +292,7 @@ $EndComp
 Wire Wire Line
 	5750 3550 5750 3400
 $Comp
-L PSPICE:R RPOT6
+L light-tone-pedal-rescue:R-PSPICE RPOT6
 U 1 1 5CFADA62
 P 6250 1900
 F 0 "RPOT6" H 6318 1946 50  0000 L CNN
@@ -316,7 +303,7 @@ F 3 "~" H 6250 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R RPOT7
+L light-tone-pedal-rescue:R-PSPICE RPOT7
 U 1 1 5CFAE670
 P 6250 2650
 F 0 "RPOT7" H 6318 2696 50  0000 L CNN
@@ -332,7 +319,7 @@ Connection ~ 5750 2900
 Wire Wire Line
 	6250 2400 6250 2250
 $Comp
-L POWER:GND #PWR016
+L light-tone-pedal-rescue:GND-POWER #PWR016
 U 1 1 5CFB2E0F
 P 5650 750
 F 0 "#PWR016" H 5650 500 50  0001 C CNN
@@ -345,7 +332,7 @@ $EndComp
 Wire Wire Line
 	5650 750  5650 800 
 $Comp
-L POWER:GND #PWR019
+L light-tone-pedal-rescue:GND-POWER #PWR019
 U 1 1 5CFB4436
 P 5950 750
 F 0 "#PWR019" H 5950 500 50  0001 C CNN
@@ -365,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2450 2950 2450
 $Comp
-L PSPICE:R R5
+L light-tone-pedal-rescue:R-PSPICE R5
 U 1 1 5CFC32D3
 P 3300 3350
 F 0 "R5" H 3368 3396 50  0000 L CNN
@@ -376,7 +363,7 @@ F 3 "~" H 3300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R R6
+L light-tone-pedal-rescue:R-PSPICE R6
 U 1 1 5CFC3B11
 P 3800 3100
 F 0 "R6" V 3650 3100 50  0000 C CNN
@@ -387,7 +374,7 @@ F 3 "~" H 3800 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PSPICE:CAP C3
+L light-tone-pedal-rescue:CAP-PSPICE C3
 U 1 1 5CFCAD20
 P 3300 3950
 F 0 "C3" H 3478 3996 50  0000 L CNN
@@ -398,7 +385,7 @@ F 3 "~" H 3300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR013
+L light-tone-pedal-rescue:GND-POWER #PWR013
 U 1 1 5CFCC814
 P 3300 4200
 F 0 "#PWR013" H 3300 3950 50  0001 C CNN
@@ -426,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2450 2700 4450
 $Comp
-L PSPICE:R RPOT4
+L light-tone-pedal-rescue:R-PSPICE RPOT4
 U 1 1 5CFD5DD8
 P 4950 3450
 F 0 "RPOT4" H 5018 3496 50  0000 L CNN
@@ -437,7 +424,7 @@ F 3 "~" H 4950 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R RPOT5
+L light-tone-pedal-rescue:R-PSPICE RPOT5
 U 1 1 5CFD6495
 P 4950 4050
 F 0 "RPOT5" H 5018 4096 50  0000 L CNN
@@ -448,7 +435,7 @@ F 3 "~" H 4950 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR015
+L light-tone-pedal-rescue:GND-POWER #PWR015
 U 1 1 5CFD77E4
 P 4950 4300
 F 0 "#PWR015" H 4950 4050 50  0001 C CNN
@@ -468,7 +455,7 @@ Connection ~ 4950 3750
 Wire Wire Line
 	4950 3750 4950 3700
 $Comp
-L PSPICE:CAP C5
+L light-tone-pedal-rescue:CAP-PSPICE C5
 U 1 1 5CFE1052
 P 4650 3100
 F 0 "C5" V 4965 3100 50  0000 C CNN
@@ -486,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 3100 4900 3100
 $Comp
-L PSPICE:VSOURCE V1
+L light-tone-pedal-rescue:VSOURCE-PSPICE V1
 U 1 1 5CFE8008
 P 1400 3050
 F 0 "V1" H 1628 3096 50  0000 L CNN
@@ -497,7 +484,7 @@ F 3 "~" H 1400 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR03
+L light-tone-pedal-rescue:GND-POWER #PWR03
 U 1 1 5CFEA91B
 P 1400 3500
 F 0 "#PWR03" H 1400 3250 50  0001 C CNN
@@ -517,7 +504,7 @@ Wire Wire Line
 	1400 2600 1250 2600
 Connection ~ 1400 2600
 $Comp
-L LM358AP:LM358AP U2
+L light-tone-pedal-rescue:LM358AP-LM358AP U2
 U 1 1 5CF86FB4
 P 3650 2250
 F 0 "U2" H 3650 2820 50  0000 C CNN
@@ -533,7 +520,7 @@ F 8 "DIP-8 Texas Instruments" H 3650 2250 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM358AP:LM358AP U1
+L light-tone-pedal-rescue:LM358AP-LM358AP U1
 U 1 1 5CF8E232
 P 2850 6200
 F 0 "U1" H 2850 6770 50  0000 C CNN
@@ -549,7 +536,7 @@ F 8 "DIP-8 Texas Instruments" H 2850 6200 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:CAP C1
+L light-tone-pedal-rescue:CAP-PSPICE C1
 U 1 1 5CF924A4
 P 950 6550
 F 0 "C1" H 1128 6596 50  0000 L CNN
@@ -560,7 +547,7 @@ F 3 "~" H 950 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R RPOT1
+L light-tone-pedal-rescue:R-PSPICE RPOT1
 U 1 1 5CF92FC1
 P 2150 7200
 F 0 "RPOT1" V 1945 7200 50  0000 C CNN
@@ -571,7 +558,7 @@ F 3 "~" H 2150 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PSPICE:R R1
+L light-tone-pedal-rescue:R-PSPICE R1
 U 1 1 5CF93737
 P 1600 5950
 F 0 "R1" H 1668 5996 50  0000 L CNN
@@ -586,7 +573,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 6200 1750 6200
 $Comp
-L POWER:GND #PWR01
+L light-tone-pedal-rescue:GND-POWER #PWR01
 U 1 1 5CFA1440
 P 950 6800
 F 0 "#PWR01" H 950 6550 50  0001 C CNN
@@ -597,7 +584,7 @@ F 3 "" H 950 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR05
+L light-tone-pedal-rescue:GND-POWER #PWR05
 U 1 1 5CFA2A14
 P 1600 5700
 F 0 "#PWR05" H 1600 5450 50  0001 C CNN
@@ -619,7 +606,7 @@ Connection ~ 1900 6300
 Wire Wire Line
 	950  6300 1900 6300
 $Comp
-L PSPICE:R R2
+L light-tone-pedal-rescue:R-PSPICE R2
 U 1 1 5CFB18C3
 P 1750 7400
 F 0 "R2" V 1545 7400 50  0000 C CNN
@@ -644,7 +631,7 @@ Wire Wire Line
 	3750 7400 3750 7200
 Connection ~ 3750 7200
 $Comp
-L PSPICE:R R7
+L light-tone-pedal-rescue:R-PSPICE R7
 U 1 1 5CFB6132
 P 4200 6000
 F 0 "R7" V 3995 6000 50  0000 C CNN
@@ -655,7 +642,7 @@ F 3 "~" H 4200 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PSPICE:R RPOT2
+L light-tone-pedal-rescue:R-PSPICE RPOT2
 U 1 1 5CFB6853
 P 4700 6400
 F 0 "RPOT2" H 4768 6446 50  0000 L CNN
@@ -666,7 +653,7 @@ F 3 "~" H 4700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R RPOT3
+L light-tone-pedal-rescue:R-PSPICE RPOT3
 U 1 1 5CFB6F41
 P 4700 7000
 F 0 "RPOT3" H 4768 7046 50  0000 L CNN
@@ -677,7 +664,7 @@ F 3 "~" H 4700 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR014
+L light-tone-pedal-rescue:GND-POWER #PWR014
 U 1 1 5CFB8B86
 P 4700 7250
 F 0 "#PWR014" H 4700 7000 50  0001 C CNN
@@ -695,7 +682,7 @@ Wire Wire Line
 	3950 6000 3750 6000
 Connection ~ 3750 6000
 $Comp
-L PSPICE:R R8
+L light-tone-pedal-rescue:R-PSPICE R8
 U 1 1 5CFC0C70
 P 4350 6700
 F 0 "R8" V 4145 6700 50  0000 C CNN
@@ -719,7 +706,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 6500 2150 6500
 $Comp
-L PSPICE:CAP C4
+L light-tone-pedal-rescue:CAP-PSPICE C4
 U 1 1 5CFD066D
 P 3950 6350
 F 0 "C4" H 4128 6396 50  0000 L CNN
@@ -737,7 +724,7 @@ Connection ~ 3950 6700
 Wire Wire Line
 	3950 6700 3400 6700
 $Comp
-L POWER:GND #PWR08
+L light-tone-pedal-rescue:GND-POWER #PWR08
 U 1 1 5CFD9D41
 P 2150 6700
 F 0 "#PWR08" H 2150 6450 50  0001 C CNN
@@ -748,7 +735,7 @@ F 3 "" H 2150 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR07
+L light-tone-pedal-rescue:GND-POWER #PWR07
 U 1 1 5CFDBF08
 P 2050 6400
 F 0 "#PWR07" H 2050 6150 50  0001 C CNN
@@ -765,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 2250 7650 2250
 $Comp
-L LM358AP:LM358AP U3
+L light-tone-pedal-rescue:LM358AP-LM358AP U3
 U 1 1 5D008CC1
 P 7600 5200
 F 0 "U3" H 7600 5770 50  0000 C CNN
@@ -781,7 +768,7 @@ F 8 "DIP-8 Texas Instruments" H 7600 5200 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:CAP C7
+L light-tone-pedal-rescue:CAP-PSPICE C7
 U 1 1 5D008CC7
 P 5700 5550
 F 0 "C7" H 5878 5596 50  0000 L CNN
@@ -792,7 +779,7 @@ F 3 "~" H 5700 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R RPOT8
+L light-tone-pedal-rescue:R-PSPICE RPOT8
 U 1 1 5D008CCD
 P 6900 6200
 F 0 "RPOT8" V 6695 6200 50  0000 C CNN
@@ -803,7 +790,7 @@ F 3 "~" H 6900 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PSPICE:R R13
+L light-tone-pedal-rescue:R-PSPICE R13
 U 1 1 5D008CD3
 P 6350 4950
 F 0 "R13" H 6418 4996 50  0000 L CNN
@@ -818,7 +805,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 5200 6500 5200
 $Comp
-L POWER:GND #PWR017
+L light-tone-pedal-rescue:GND-POWER #PWR017
 U 1 1 5D008CDB
 P 5700 5800
 F 0 "#PWR017" H 5700 5550 50  0001 C CNN
@@ -829,7 +816,7 @@ F 3 "" H 5700 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR020
+L light-tone-pedal-rescue:GND-POWER #PWR020
 U 1 1 5D008CE1
 P 6350 4700
 F 0 "#PWR020" H 6350 4450 50  0001 C CNN
@@ -851,7 +838,7 @@ Connection ~ 6650 5300
 Wire Wire Line
 	5700 5300 6650 5300
 $Comp
-L PSPICE:R R14
+L light-tone-pedal-rescue:R-PSPICE R14
 U 1 1 5D008CED
 P 6500 6400
 F 0 "R14" V 6295 6400 50  0000 C CNN
@@ -876,7 +863,7 @@ Wire Wire Line
 	8500 6400 8500 6200
 Connection ~ 8500 6200
 $Comp
-L PSPICE:R R17
+L light-tone-pedal-rescue:R-PSPICE R17
 U 1 1 5D008CFB
 P 8950 5000
 F 0 "R17" V 8745 5000 50  0000 C CNN
@@ -887,7 +874,7 @@ F 3 "~" H 8950 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PSPICE:R RPOT9
+L light-tone-pedal-rescue:R-PSPICE RPOT9
 U 1 1 5D008D01
 P 9450 5400
 F 0 "RPOT9" H 9518 5446 50  0000 L CNN
@@ -898,7 +885,7 @@ F 3 "~" H 9450 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSPICE:R RPOT10
+L light-tone-pedal-rescue:R-PSPICE RPOT10
 U 1 1 5D008D07
 P 9450 6000
 F 0 "RPOT10" H 9518 6046 50  0000 L CNN
@@ -909,7 +896,7 @@ F 3 "~" H 9450 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR026
+L light-tone-pedal-rescue:GND-POWER #PWR026
 U 1 1 5D008D0D
 P 9450 6250
 F 0 "#PWR026" H 9450 6000 50  0001 C CNN
@@ -927,7 +914,7 @@ Wire Wire Line
 	8700 5000 8500 5000
 Connection ~ 8500 5000
 $Comp
-L PSPICE:R R18
+L light-tone-pedal-rescue:R-PSPICE R18
 U 1 1 5D008D17
 P 9100 5700
 F 0 "R18" V 8895 5700 50  0000 C CNN
@@ -951,7 +938,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 5500 6900 5500
 $Comp
-L PSPICE:CAP C10
+L light-tone-pedal-rescue:CAP-PSPICE C10
 U 1 1 5D008D24
 P 8700 5350
 F 0 "C10" H 8878 5396 50  0000 L CNN
@@ -969,7 +956,7 @@ Connection ~ 8700 5700
 Wire Wire Line
 	8700 5700 8150 5700
 $Comp
-L POWER:GND #PWR023
+L light-tone-pedal-rescue:GND-POWER #PWR023
 U 1 1 5D008D2E
 P 6900 5700
 F 0 "#PWR023" H 6900 5450 50  0001 C CNN
@@ -980,7 +967,7 @@ F 3 "" H 6900 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR022
+L light-tone-pedal-rescue:GND-POWER #PWR022
 U 1 1 5D008D34
 P 6800 5400
 F 0 "#PWR022" H 6800 5150 50  0001 C CNN
@@ -1047,7 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 4150 9350 4150
 $Comp
-L Diode:CQY99 D1
+L light-tone-pedal-rescue:CQY99-Diode D1
 U 1 1 5CFDD803
 P 10100 3450
 F 0 "D1" V 10096 3373 50  0000 R CNN
@@ -1058,7 +1045,7 @@ F 3 "https://www.prtice.info/IMG/pdf/CQY99.pdf" H 10050 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:CQY99 D2
+L light-tone-pedal-rescue:CQY99-Diode D2
 U 1 1 5CFE07F5
 P 10300 4350
 F 0 "D2" V 10296 4273 50  0000 R CNN
@@ -1073,7 +1060,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 4250 10300 4250
 $Comp
-L POWER:GND #PWR027
+L light-tone-pedal-rescue:GND-POWER #PWR027
 U 1 1 5CFF2F8A
 P 10100 3650
 F 0 "#PWR027" H 10100 3400 50  0001 C CNN
@@ -1084,7 +1071,7 @@ F 3 "" H 10100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER:GND #PWR028
+L light-tone-pedal-rescue:GND-POWER #PWR028
 U 1 1 5CFF6DAC
 P 10300 4550
 F 0 "#PWR028" H 10300 4300 50  0001 C CNN
@@ -1134,47 +1121,10 @@ F 12 "Active" H 9950 5450 60  0001 L CNN "Status"
 	1    9750 4250
 	-1   0    0    1   
 $EndComp
-$Comp
-L PSPICE:CAP Cpow1
-U 1 1 5DF03E96
-P 3350 1250
-F 0 "Cpow1" H 3528 1296 50  0000 L CNN
-F 1 "100u" H 3528 1205 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 3350 1250 50  0001 C CNN
-F 3 "~" H 3350 1250 50  0001 C CNN
-	1    3350 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L PSPICE:R Rpow1
-U 1 1 5DF0A838
-P 2850 1000
-F 0 "Rpow1" V 2645 1000 50  0000 C CNN
-F 1 "200" V 2736 1000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2850 1000 50  0001 C CNN
-F 3 "~" H 2850 1000 50  0001 C CNN
-	1    2850 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L POWER:GND #PWR0101
-U 1 1 5DF0D5C0
-P 3350 1500
-F 0 "#PWR0101" H 3350 1250 50  0001 C CNN
-F 1 "GND" H 3355 1327 50  0000 C CNN
-F 2 "" H 3350 1500 50  0001 C CNN
-F 3 "" H 3350 1500 50  0001 C CNN
-	1    3350 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 1000 3350 1000
-Wire Wire Line
-	2600 1000 2450 1000
 Wire Wire Line
 	2450 800  2450 1000
 $Comp
-L POWER:VCC #PWR0102
+L light-tone-pedal-rescue:VCC-POWER #PWR0102
 U 1 1 5DEFFEA1
 P 2450 800
 F 0 "#PWR0102" H 2450 650 50  0001 C CNN
@@ -1186,9 +1136,6 @@ F 3 "" H 2450 800 50  0001 C CNN
 $EndComp
 Text GLabel 3600 1000 2    50   Output ~ 0
 vcc_filtered
-Wire Wire Line
-	3350 1000 3600 1000
-Connection ~ 3350 1000
 Text GLabel 1950 1750 0    50   Output ~ 0
 vcc_filtered
 Wire Wire Line
@@ -1205,4 +1152,12 @@ Text GLabel 6750 4750 1    50   Output ~ 0
 vcc_filtered
 Wire Wire Line
 	6750 5000 6750 4750
+Text GLabel 7500 1400 1    50   Output ~ 0
+vcc_filtered
+Wire Wire Line
+	7500 1650 7500 1400
+Wire Wire Line
+	3100 1000 3600 1000
+Wire Wire Line
+	2600 1000 2450 1000
 $EndSCHEMATC
