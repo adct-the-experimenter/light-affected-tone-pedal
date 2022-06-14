@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name light-tone-pedal-rescue)(type Legacy)(uri ${KIPRJMOD}/light-tone-pedal-rescue.lib)(options "")(descr "")(disabled))
-  (lib (name lm358ap-lm358ap)(type Legacy)(uri ${KIPRJMOD}/symbols/lm358ap-lm358ap.lib)(options "")(descr "")(disabled))
-  (lib (name Switch-Digikey)(type Legacy)(uri /home/archman/source_builds/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib)(options "")(descr "")(disabled))
-  (lib (name light-affected-tone-pedal)(type Legacy)(uri ${KIPRJMOD}/symbols/light-affected-tone-pedal.lib)(options "")(descr ""))
-)
