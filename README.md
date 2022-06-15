@@ -6,8 +6,6 @@ This is an analog circuit and pcb for the product Light-Affected Tone pedal desi
 - Web Demo: adfxz.com/light-affected-tone-pedal
 - Circuit: light-tone-pedal-circuit.asc
 
-## Videos
-https://www.youtube.com/watch?v=-8gtVt2RAtI
 
 The Light Dependent Resistors used range from 3k ohms to 11k ohms.
 
@@ -17,16 +15,11 @@ The Light Dependent Resistors used range from 3k ohms to 11k ohms.
 
 - Advanced Photonix PDV-8001 LDR https://www.digikey.com/product-detail/en/advanced-photonix/PDV-P8001/PDV-P8001-ND/480602
 
-## List of Materials, BOM, Parts List
-
-- 5-Order-BOM - light-tone-pedal-BOM-all-parts.pdf
-
-- 5-Order-BOM.xlsx
-
 ## Why PWM should not be used
 
 The light-dependent resistor is very sensitive to big changes in light. 
 It will pick up the LED turning on and off very quickly and produce high frequency noise close to the flashing frequency of the LED.
+Low-pass filter is recommended for use with PWM signals.
 
 ## What you can do with the circuit
 You are free to copy, modify, sell, or use this circuit in derived works as long as you include the conditions of the license 
